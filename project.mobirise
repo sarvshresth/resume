@@ -38,7 +38,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.10",
     "siteFonts": [],
-    "uniqCompNum": 17,
+    "uniqCompNum": 19,
     "versionPublish": "4.7.10",
     "screenshot": "screenshot.png"
   },
@@ -72,12 +72,40 @@
             ".mbr-section-subtitle": {
               "color": "#eaeaea",
               "text-align": "center"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "text-align": "center",
+              "color": "#ffffff"
             }
           },
           "_name": "header1",
-          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/beverage-black-coffee-blur-1235717-2000x1222.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n            SARV SHRESTH SUMIT</h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">RPA SUBJECT MATTER EXPERT - SPECIALIST SE</h3>\n        <p class=\"mbr-fonts-style mbr-text align-right\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            Full width intro with adjustable height, background image. Click any text to edit or style it.\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\"></a></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"header1\" group=\"Headers\" plugins=\"amp-main\" mbr-class=\"{'mbr-fullscreen': fullScreen}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/beverage-black-coffee-blur-1235717-2000x1222.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0dd1ff\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <h1 class=\"mbr-section-title mbr-fonts-style align-right mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n            SARV SHRESTH SUMIT<br><br></h1>\n        <h3 class=\"mbr-section-subtitle mbr-fonts-style align-right mbr-white mbr-light\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubTitle\">RPA SUBJECT MATTER EXPERT - SPECIALIST SE<br><br></h3>\n        <p class=\"mbr-fonts-style mbr-text align-right\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text, .mbr-section-btn\" mbr-if=\"showText\">\n            “BE STUBBORN ABOUT YOUR GOALS AND FLEXIBLE ABOUT YOUR METHODS.”\n        </p>\n        <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-primary\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Text\"></a></div>\n    </div>\n\n</section>",
           "_cid": "rFDYLIuDJL",
           "_anchor": "header1-0",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "margin-bottom": "0",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "margin": "0",
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#3d0000\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                    ABOUT MY PROFESSIONAL LIFE</h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I am a Specialist SE working as RPA SME&nbsp;at SGGSC&nbsp;Bangalore,&nbsp;India. I have worked on Automation Anywhere tool and have an overall experience of over&nbsp;8.0&nbsp;years in IT Industry in various profiles with teams spread across multiple geographies globally. Currently, I&nbsp;analyze/develop/implement/decommission&nbsp;RPA projects and&nbsp;BOTs. I have matured in my role through my career journey from a DB Tester to RPA Developer. In my leisure time, I build apps, design flyer for my residential society to keep them digital and paperless; DIGITAL INDIA&nbsp;I strongly feel that Continuous Learning is essential for us in all walks of life. For&nbsp;my profile, please visit my linkedin page.</p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rFE6DgXQYd",
+          "_anchor": "content2-5",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -100,37 +128,14 @@
               "padding-top": "1.5rem"
             }
           },
-          "_name": "content18",
-          "_customHTML": "<section class=\"mbr-section content18\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1084.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#0d0c0c\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-1\">\n            RESUME</h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light  mbr-fonts-style mbr-white\" mbr-theme-style=\"display-2\"><b><i>“BE STUBBORN ABOUT YOUR GOALS AND FLEXIBLE ABOUT YOUR METHODS.”</i></b></h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n            <a class=\"btn btn-black-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
-          "_cid": "rFE2IFFPJ2",
-          "_anchor": "content18-2",
+          "_name": "content19",
+          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-3-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">\n            Article Title with Background Image\n        </h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n            <a class=\"btn btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_cid": "rFHiA54qjU",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "padding-top": "(@paddingTop * 15px)",
-            "padding-bottom": "(@paddingBottom * 15px)",
-            "background-color": "@bgColor",
-            ".mbr-text": {
-              "margin-bottom": "0",
-              "color": "#ffffff"
-            },
-            ".mbr-section-title": {
-              "margin": "0",
-              "color": "#ffffff"
-            }
-          },
-          "_name": "content2",
-          "_customHTML": "<section class=\"content2 mbr-section article\" plugins=\"amp-main\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#3d0000\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"mbr-row mbr-justify-content-center\">\n            <div class=\"mbr-col-sm-12 mbr-col-md-10 mbr-col-lg-8\">\n                <h3 class=\"mbr-fonts-style mbr-section-title mbr-light\" mbr-if=\"showTitle\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">\n                    ABOUT MY PROFESSIONAL LIFE</h3>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;I am a Specialist SE working as RPA SME&nbsp;at SGGSC&nbsp;Bangalore,&nbsp;India. I have worked on Automation Anywhere tool and have an overall experience of over&nbsp;8.0&nbsp;years in IT Industry in various profiles with teams spread across multiple geographies globally. Currently, I&nbsp;analyze/develop/implement/decommission&nbsp;RPA projects and&nbsp;BOTs. I have matured in my role through my career journey from a DB Tester to RPA Developer. In my leisure time, I build apps, design flyer for my residential society to keep them digital and paperless; DIGITAL INDIA&nbsp;I strongly feel that Continuous Learning is essential for us in all walks of life. For&nbsp;my profile, please visit my linkedin page.</p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "rFE6DgXQYd",
-          "_anchor": "content2-5",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content19-i"
         },
         {
           "_styles": {
@@ -170,6 +175,32 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-title": {
+              "padding-bottom": "1rem"
+            },
+            ".mbr-section-btn": {
+              "padding-top": "1.5rem"
+            }
+          },
+          "_name": "content19",
+          "_customHTML": "<section class=\"mbr-section content19\" group=\"Article\" plugins=\"amp-main\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"4\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-3-1920x1280.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#000000\">\n        </fieldset>\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-container\">\n        <h2 mbr-if=\"showTitle\" class=\"mbr-title align-center mbr-fonts-style mbr-bold mbr-white\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-title\">\n            Article Title with Background Image\n        </h2>\n        <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style mbr-white\" mbr-theme-style=\"display-5\">\n            <i>Shape your future web project with sharp design and refine coded functions.</i>\n        </h3>\n        <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove\">\n            <a class=\"btn btn-primary\" href=\"https://mobirise.com\">LEARN MORE</a>\n            <a class=\"btn btn-white-outline\" href=\"https://mobirise.com\">LIVE DEMO</a>\n        </div>\n    </div>\n</section>",
+          "_cid": "rFHikVN0UP",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content19-h"
         },
         {
           "_styles": {
